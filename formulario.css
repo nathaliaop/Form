@@ -35,7 +35,7 @@ body {
     width: 95%;
     background-color: #2b0155;
     border-radius: 50px;
-    padding: 0.5rem;
+    padding: 2rem;
 }
 
 .form-content img{
@@ -44,32 +44,23 @@ body {
 
 .form-content h2{
 	color: #fcabe3;
-	font-size: 2.4rem;
-}
-
-.form-content p{
-	padding: 2vh;
+	font-size: 20px;
+	margin: 0;
 }
 
 .input-div{
     display: flex;
-    position: relative;
-    padding: 3vh;
-    margin-bottom: 8vh;
+	flex-direction: column;
+	padding: 0.5rem 0rem;
 }
 
+
 .input-div img{
-	position: absolute;
-	right: 40%;
-	top: 0;
-	width: 100%;
-	height: 100%;
+	width: 35px;
+	height: 35px;
 }
 
 .input-div label{
-	position: absolute;
-    padding: 0;
-	bottom:  2rem;
 	width: 100%;
 	height: 100%;
 	color: #fcabe3;
@@ -77,16 +68,11 @@ body {
 }
 
 .input-div input{
-	position: absolute;
-	left: 0;
-    top:0;
-	width: 100%;
-	height: 100%;
     border: 2px solid #fcabe3;
     border-radius: 50px;
 	outline: none;
 	background: none;
-	padding: 0.5rem 1rem  0.5rem 5rem;
+	padding: 3% 3%  3% 10%;
 	font-size: 1.2rem;
 	color: #fcabe3;
     text-transform: capitalize;
@@ -101,12 +87,12 @@ input::placeholder{
     opacity: 0.7;
 }
 
-.input-div .input-image{
-    border: none;
-}
-
 .letrapequena{
 	font-size: 10px;
+}
+
+form {
+	justify-content: space-evenly;
 }
 
 
